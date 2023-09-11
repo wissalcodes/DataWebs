@@ -17,7 +17,7 @@ export default function Hero(){
             loop
             />
        </div>
-       <p className="md:text-2xl text-xl font-bold text-gray-500">
+       <p className="sm: px-4 md:text-2xl text-xl font-bold text-gray-500">
         Monitor your data analytics to increase revenue for BTB, Btc, & SASS platforms.
        </p>
        <button className="bg-[#00df9a] w-[200px] rounded-md font-medium mx-auto py-3 mt-5 text-black">

@@ -20,7 +20,7 @@ export default function Navbar(){
                     !nav ? <AiOutlineClose size={20}/> : <AiOutlineMenu size={20}></AiOutlineMenu>
                 }
             </div>
-            <div className={!nav ? "fixed left-0 top-0 w-[60%] h-full border-r border-r-gray-900  m-4 ease-in-out duration-500" : "fixed top-0 w-[60%] h-full border-r border-r-gray-900  m-4 ease-in-out duration-500 left-[-100%]" }>
+            <div className={!nav ? " bg-black md:hidden fixed left-0 top-0 w-[60%] h-auto border-r border-r-gray-900  ease-in-out duration-500" : "fixed top-0 w-[60%] h-full border-r border-r-gray-900  m-4 ease-in-out duration-500 left-[-100%] md:hidden" }>
                 <ul className="pt-12 uppercase block md:hidden">
                     <li className="p-4 border-b border-gray-600">Home</li>
                     <li className="p-4 border-b border-gray-600">Company</li>
